@@ -73,3 +73,7 @@ details[open]>p{animation:faq-in 200ms var(--ease-out)}
 @media(max-width:650px){.founder-photo{max-width:none;margin-top:2rem}}
 .story .founder-photo{margin:0 0 2.5rem;max-width:none}.story .founder-photo img{aspect-ratio:4/3;object-position:center 35%}@media(min-width:651px){.story-heading{position:sticky;top:2rem;align-self:start}}
 .patch-section{border-top:1px solid var(--line)}.poster-grid-four{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:1100px){.poster-grid-four{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.poster-grid-four{grid-template-columns:1fr}}
+.gathering{align-items:start}.event-card{margin-top:4rem}
+@supports (animation-timeline:view()){.event-card{animation:poster-land linear both;animation-timeline:view();animation-range:entry 0% cover 30%}}
+@media(max-width:650px){.event-card{margin-top:0}@supports (animation-timeline:view()){.event-card{animation-name:poster-land-flat}}}
+@media(prefers-reduced-motion:reduce){.event-card{animation:none!important}}
