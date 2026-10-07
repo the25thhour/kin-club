@@ -92,3 +92,15 @@ details[open]>p{animation:faq-in 200ms var(--ease-out)}
 .faq{background:var(--paper)}
 .event-facts>div{border-bottom-color:rgba(11,5,29,.3)}
 .gathering .pair-symbol i+i{background:var(--ink)}.swatches{grid-template-columns:repeat(3,1fr)}.swatch-lime{background:var(--lime)}.swatch-lilac{background:var(--lilac)}.swatch-stone{background:var(--stone)}@media(max-width:650px){.swatches{grid-template-columns:1fr 1fr}}
+/* Chunky type (2026-10-07): Rubik for the KIN mark and display headlines, DM Sans for everything else */
+:root{--display:'Rubik','DM Sans',Arial,sans-serif}
+.wordmark{font-family:var(--display);font-weight:900;font-size:2.6rem;letter-spacing:-.01em;align-items:center}
+.wordmark span{font-family:var(--font);font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;font-weight:700;margin-left:.9rem;max-width:7.5em;line-height:1.45}
+h1,h2,.hero h1,.belonging h2,.pillars-list dt,.closing-cta strong,.brand-hero h1,.social-lead h1,.type-specimen>p:first-child{font-family:var(--display);font-weight:800;letter-spacing:-.02em}
+.hero h1{line-height:.98}h2{line-height:1.02}
+.step h3,.story-copy .story-lead{letter-spacing:-.02em}
+.footer-mark{font-family:var(--display);flex-direction:column;align-items:flex-start;letter-spacing:-.02em;font-weight:900;gap:0}
+.footer-mark b{font-weight:900;line-height:.82;font-size:clamp(7rem,24vw,24rem)}
+.footer-mark span{font-family:var(--font);font-size:clamp(.9rem,1.6vw,1.6rem);letter-spacing:.32em;text-transform:uppercase;font-weight:700;margin:1.2rem 0 0 .3em}
+.footer-mark .kin-icon{width:clamp(5rem,14vw,14rem);height:auto;margin:0 0 1.2rem .4rem}
+@media(max-width:650px){.wordmark{font-size:2.2rem}.wordmark span{font-size:.62rem}}
