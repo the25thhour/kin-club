@@ -82,3 +82,13 @@ details[open]>p{animation:faq-in 200ms var(--ease-out)}
 .pillars-close{margin:3.5rem 0 0;font-size:clamp(1.6rem,2.4vw,2.2rem);font-weight:600;letter-spacing:-.03em}.pillars-close:before{content:'';display:inline-block;width:.6em;height:.6em;border-radius:50%;background:var(--pink);border:1.5px solid var(--ink);margin-right:.5em;vertical-align:.05em}
 @media(max-width:650px){.pillars-head{grid-template-columns:1fr;gap:0}.pillars-list{grid-template-columns:1fr;gap:2rem;margin-top:2rem}.pillars-close{margin-top:2.5rem}}
 .pillars{background:var(--ink);color:var(--paper);border-top:0}.pillars-head p{color:#d8d2de}.pillars-list>div{border-top-color:var(--pink)}.pillars-list dt{color:var(--pink)}.pillars-list dd{color:#d8d2de}.pillars-close:before{border-color:var(--pink)}
+/* Palette v2 (2026-10-07): lime, lilac, stone lead; ink, paper, plum stay */
+:root{--lime:#E6FFA9;--lilac:#B798BE;--stone:#E4E3DF;--pink:var(--lime)}
+.eyebrow,.gathering-label,.pillars-list dt span{letter-spacing:.2em;font-weight:700;font-size:.8125rem}
+.wordmark span{letter-spacing:.2em}
+.gathering{background:var(--lilac)}
+.belonging{background:var(--plum)}
+.closing-cta{background:var(--stone);border-top:0}
+.faq{background:var(--paper)}
+.event-facts>div{border-bottom-color:rgba(11,5,29,.3)}
+.gathering .pair-symbol i+i{background:var(--ink)}.swatches{grid-template-columns:repeat(3,1fr)}.swatch-lime{background:var(--lime)}.swatch-lilac{background:var(--lilac)}.swatch-stone{background:var(--stone)}@media(max-width:650px){.swatches{grid-template-columns:1fr 1fr}}
