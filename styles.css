@@ -118,3 +118,13 @@ html[data-theme="pink"] .swatch-lime{background:#FFA8CD}
 .theme-switch button[aria-pressed="true"]{background:var(--paper);color:var(--ink)}
 .theme-switch button:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
 @media(max-width:650px){.theme-switch span{display:none}.theme-switch{right:.75rem;bottom:.75rem}}
+/* Orchard: butter, burgundy, sage */
+html[data-theme="orchard"]{--pink:#FBE7A1;--burgundy:#6E1F2F;--sage:#B7C2A3}
+html[data-theme="orchard"] .gathering{background:var(--sage)}
+html[data-theme="orchard"] .belonging{background:var(--burgundy)}
+html[data-theme="orchard"] .pillars{background:var(--burgundy)}
+html[data-theme="orchard"] .site-footer{background:var(--burgundy)}
+html[data-theme="orchard"] .footer-bottom{border-top-color:#8f4553}
+html[data-theme="orchard"] .theme-switch{background:var(--burgundy)}
+.only-orchard{display:none}html[data-theme="orchard"] .only-orchard{display:grid}html[data-theme="orchard"] .only-lime{display:none}
+@media(max-width:650px){.theme-switch button{padding:0 .7rem}}
