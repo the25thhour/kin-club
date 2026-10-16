@@ -128,3 +128,24 @@ html[data-theme="orchard"] .footer-bottom{border-top-color:#8f4553}
 html[data-theme="orchard"] .theme-switch{background:var(--burgundy)}
 .only-orchard{display:none}html[data-theme="orchard"] .only-orchard{display:grid}html[data-theme="orchard"] .only-lime{display:none}
 @media(max-width:650px){.theme-switch button{padding:0 .7rem}}
+
+/* Approved neutral palette, 2026-10-16. Legacy theme definitions above are archival. */
+:root,html[data-theme]{--paper:#F5F3ED;--stone:#E2E2D3;--taupe:#C9C7BA;--ink:#191B1D;--violet:#6568A8;--plum:#191B1D;--line:#C9C7BA;--muted:#55564F;--pink:#E2E2D3;--lime:#E2E2D3;--lilac:#E2E2D3}
+.hero,.brand-hero{background:var(--paper)}
+.gathering,.closing-cta,.feed-section,.note{background:var(--stone)}
+.pillars,.belonging{background:var(--stone);color:var(--ink)}
+.pillars-head p,.pillars-list dd{color:var(--muted)}
+.pillars-list dt{color:var(--ink)}
+.pillars-list>div{border-color:var(--taupe)}
+.pillars-close:before{background:var(--violet);border-color:var(--violet)}
+.button-dark:hover{background:var(--violet);color:var(--paper)}
+.site-footer{background:var(--ink);color:var(--paper)}
+.footer-mark{color:var(--paper)}
+.footer-bottom{border-color:var(--taupe)}
+.belonging a:focus-visible{outline-color:var(--ink)}
+.site-footer a:focus-visible{outline-color:var(--paper)}
+.accent-sample{background:var(--violet);color:var(--paper)}
+.note{border-left-color:var(--violet)}
+.palette-strip i,.feed-preview{border-color:var(--taupe)}
+.event-facts>div{border-bottom-color:var(--taupe)}
+.theme-switch{display:none}
