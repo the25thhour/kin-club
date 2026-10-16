@@ -149,3 +149,20 @@ html[data-theme="orchard"] .theme-switch{background:var(--burgundy)}
 .palette-strip i,.feed-preview{border-color:var(--taupe)}
 .event-facts>div{border-bottom-color:var(--taupe)}
 .theme-switch{display:none}
+
+/* Stronger colour rhythm, 2026-10-16: violet leads key moments. */
+.hero,.brand-hero{background:var(--violet);color:var(--paper)}
+.hero .photo-note{color:var(--ink)}
+.hero .button-dark{background:var(--paper);color:var(--ink)}
+.hero .button-dark:hover{background:var(--stone)}
+.hero a:not(.button-dark){border-color:var(--paper)}
+.hero a:focus-visible,.brand-hero a:focus-visible{outline-color:var(--paper)}
+.gathering-detail{background:var(--violet);color:var(--paper)}
+.gathering-detail dd{color:var(--paper)}
+.gathering-label,.gathering-detail dl>div{border-color:rgba(245,243,237,.45)}
+.belonging{background:var(--violet);color:var(--paper)}
+.belonging a:focus-visible{outline-color:var(--paper)}
+.step-number{color:var(--violet);font-weight:700}
+.pillars-list dt span{color:var(--violet)}
+.pillars-list>div{border-top:3px solid var(--violet)}
+.footer-mark{color:var(--stone)}
